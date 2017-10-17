@@ -1,4 +1,4 @@
-package reflect;
+package com.lgq.study.reflect;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

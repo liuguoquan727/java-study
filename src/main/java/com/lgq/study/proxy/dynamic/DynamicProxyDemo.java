@@ -1,10 +1,10 @@
-package proxy.dynamic;
+package com.lgq.study.proxy.dynamic;
 
 import java.lang.reflect.Proxy;
-import proxy.IPlay;
-import proxy.IService;
-import proxy.RealService;
-import proxy.statics.RealPlay;
+import com.lgq.study.proxy.IPlay;
+import com.lgq.study.proxy.IService;
+import com.lgq.study.proxy.RealService;
+import com.lgq.study.proxy.statics.RealPlay;
 
 /**
  * Descriptions: 动态代理 https://juejin.im/post/591c5fe5a22b9d0058439333 Created by liuguoquan on

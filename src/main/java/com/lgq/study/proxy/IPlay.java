@@ -1,4 +1,4 @@
-package proxy;
+package com.lgq.study.proxy;
 
 /**
  * Descriptions: Created by liuguoquan on 2017/7/30.

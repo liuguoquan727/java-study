@@ -1,4 +1,4 @@
-package reflect;
+package com.lgq.study.reflect;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
@@ -49,7 +49,7 @@ public class ReflectDemo {
 
     try {
       //1.获取Class对象
-      myClass = Class.forName("com.liuguoquan.reflect.Student");
+      myClass = Class.forName("com.lgq.study.reflect.Student");
       //2.通过Class对象获取Constructor,并传入构造函数的参数类型
       Constructor<?> constructor = myClass.getConstructor(String.class, String.class, int.class);
       constructor.setAccessible(true);

@@ -1,4 +1,4 @@
-package proxy.dynamic;
+package com.lgq.study.proxy.dynamic;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -23,7 +23,6 @@ public class SimpleInvocationHandler implements InvocationHandler {
    * @param args 表示方法的参数
    * @throws Throwable
    */
-  @Override
   public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
     System.out.println("Enter: " + method.getName());
     //调用实际对象对应方法

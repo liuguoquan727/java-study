@@ -1,4 +1,4 @@
-package proxy;
+package com.lgq.study.proxy;
 
 /**
  * Descriptions: 实际对象

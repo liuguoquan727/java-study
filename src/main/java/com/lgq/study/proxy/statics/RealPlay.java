@@ -1,13 +1,13 @@
-package proxy.statics;
+package com.lgq.study.proxy.statics;
 
-import proxy.IPlay;
+import com.lgq.study.proxy.IPlay;
 
 /**
  * Descriptions: Created by liuguoquan on 2017/7/30.
  */
 
 public class RealPlay implements IPlay {
-  @Override public void play() {
+  public void play() {
     System.out.println("I can play!");
   }
 }

@@ -1,6 +1,6 @@
-package proxy.statics;
+package com.lgq.study.proxy.statics;
 
-import proxy.IService;
+import com.lgq.study.proxy.IService;
 
 /**
  * Descriptions:代理类
@@ -16,7 +16,6 @@ public class TraceProxy implements IService {
     this.realService = realService;
   }
 
-  @Override
   public void sayHello() {
     System.out.println("Enter");
     realService.sayHello();

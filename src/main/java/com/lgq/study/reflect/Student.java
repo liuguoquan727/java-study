@@ -1,4 +1,4 @@
-package reflect;
+package com.lgq.study.reflect;
 
 /**
  * Descriptions:

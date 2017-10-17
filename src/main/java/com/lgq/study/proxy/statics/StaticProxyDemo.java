@@ -1,7 +1,7 @@
-package proxy.statics;
+package com.lgq.study.proxy.statics;
 
-import proxy.IService;
-import proxy.RealService;
+import com.lgq.study.proxy.IService;
+import com.lgq.study.proxy.RealService;
 
 /**
  * Descriptions: 静态代理 Created by liuguoquan on 2017/7/30.
