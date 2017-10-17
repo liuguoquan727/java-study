@@ -58,7 +58,6 @@ public class ReflectUtil {
 
   /**
    * 获取成员变量
-   * @param name
    */
   public static void printFields(String name) {
     try {
@@ -73,7 +72,6 @@ public class ReflectUtil {
         Modifier.isStatic(field.getModifiers());
         Modifier.isFinal(field.getModifiers());
       }
-
     } catch (ClassNotFoundException e) {
       e.printStackTrace();
     }
@@ -81,7 +79,6 @@ public class ReflectUtil {
 
   /**
    * 获取父类
-   * @param name
    */
   public static void printSuperClass(String name) {
     try {
@@ -93,7 +90,6 @@ public class ReflectUtil {
         System.out.println(superclass.getName());
         superclass = superclass.getSuperclass();
       }
-
     } catch (ClassNotFoundException e) {
       e.printStackTrace();
     }
@@ -101,7 +97,6 @@ public class ReflectUtil {
 
   /**
    * 获取接口
-   * @param name
    */
   public static void printIntefaces(String name) {
     try {
@@ -112,7 +107,6 @@ public class ReflectUtil {
       for (Class<?> anInterface : interfaces) {
         System.out.println(anInterface.getName());
       }
-
     } catch (ClassNotFoundException e) {
       e.printStackTrace();
     }

@@ -4,8 +4,7 @@ import proxy.IService;
 import proxy.RealService;
 
 /**
- * Descriptions: 静态代理
- * Created by liuguoquan on 2017/7/30.
+ * Descriptions: 静态代理 Created by liuguoquan on 2017/7/30.
  */
 
 public class StaticProxyDemo {

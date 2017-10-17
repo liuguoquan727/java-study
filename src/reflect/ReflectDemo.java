@@ -4,9 +4,8 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 
 /**
- * Descriptions: 反射Demo
- * https://juejin.im/post/5909ef73b123db3ee49d288a
- * Created by liuguoquan on 2017/7/30.
+ * Descriptions: 反射Demo https://juejin.im/post/5909ef73b123db3ee49d288a Created by liuguoquan on
+ * 2017/7/30.
  */
 
 public class ReflectDemo {
@@ -55,14 +54,13 @@ public class ReflectDemo {
       Constructor<?> constructor = myClass.getConstructor(String.class, String.class, int.class);
       constructor.setAccessible(true);
       //3.通过Constructor创建Student对象
-      Student student = (Student) constructor.newInstance("liu","male",28);
+      Student student = (Student) constructor.newInstance("liu", "male", 28);
       System.out.println("obj: " + student.toString());
 
       //只能获取私有方法
       Method method = student.getClass().getMethod("getName");
       String name = (String) method.invoke(student);
       System.out.println(name);
-
     } catch (Exception e) {
       e.printStackTrace();
     }

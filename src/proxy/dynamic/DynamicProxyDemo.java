@@ -7,9 +7,8 @@ import proxy.RealService;
 import proxy.statics.RealPlay;
 
 /**
- * Descriptions: 动态代理
- * https://juejin.im/post/591c5fe5a22b9d0058439333
- * Created by liuguoquan on 2017/7/30.
+ * Descriptions: 动态代理 https://juejin.im/post/591c5fe5a22b9d0058439333 Created by liuguoquan on
+ * 2017/7/30.
  */
 
 public class DynamicProxyDemo {
